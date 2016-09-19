@@ -5,14 +5,14 @@
 --
 -- You can write comments in this file by starting them with two dashes, like
 -- these lines here.
+-- Delete database if already existed.
+-- Tables and views deletion is unecessary since the whole database is deleted.
 DROP DATABASE IF EXISTS tournament;
 CREATE DATABASE tournament;
 
 -- Connect to tournament database
 \c tournament;
 
-DROP VIEW IF EXISTS player_ranking;
-DROP TABLE IF EXISTS matches, players;
 CREATE TABLE players(
 	id SERIAL PRIMARY KEY, 
 	name TEXT);
