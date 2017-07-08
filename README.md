@@ -13,8 +13,8 @@ This project will run a simple Swiss system tournament: players are not eliminat
 In order to run this project, you must have Python and PostgreSQL installed and configured, as well as the psql command line interface (CLI).
 
 ### Download Python: https://www.python.org/
-### Use Vagrant Virtual Machine to install and configure PostgreSQL:
-The Vagrant VM has PostgreSQL installed and configured, as well as the psql command line interface (CLI), so that you don't have to install or configure them on your local machine. (Provided by Udacity at https://github.com/udacity/fullstack-nanodegree-vm)
+### Using the Vagrant Virtual Machine to install and configure PostgreSQL:
+The Vagrant VM has PostgreSQL installed and configured, as well as the psql command line interface (CLI), so that you don't have to install or configure them on your local machine.
 To use the Vagrant virtual machine, navigate to the full-stack-nanodegree-vm/tournament directory in the terminal, then use the command vagrant up (powers on the virtual machine) followed by vagrant ssh (logs into the virtual machine).  
 Remember, once you have executed the vagrant ssh command, you will want to cd /vagrant to change directory to the synced folders in order to work on your project, once your cd /vagrant, if you type ls on the command line, you'll see your tournament folder.
 The Vagrant VM provided in the fullstack repo already has PostgreSQL server installed, as well as the psql command line interface (CLI), so you'll need to have your VM on and be logged into it to run your database configuration file (tournament.sql), and test your Python file with tournament_test.py.
@@ -59,4 +59,3 @@ Success!  All tests pass!
 	https://www.postgresql.org/docs/9.3/static/
 3. http://stackoverflow.com/questions/31484776 cant-display-matches-won-matches-played-and-matches-drawed-by-each-player
 4. http://stackoverflow.com/questions/37248659/psycopg2-psql-select-statement-returning-0l-instead-of-0
-5. http://stackoverflow.com/questions/888731/two-sql-count-queries
